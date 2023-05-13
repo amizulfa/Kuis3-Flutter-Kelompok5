@@ -146,11 +146,14 @@ class HalamanUtama extends StatelessWidget {
                                   child: Column(
                                     mainAxisAlignment: MainAxisAlignment.start,
                                     children: [
-                                      Text("Id :", textAlign: TextAlign.left),
-                                      Text(model.listPinjamanModel[index].id,
+                                      Text(
+                                          "Id: " +
+                                              model.listPinjamanModel[index].id,
                                           textAlign: TextAlign.left),
-                                      Text("Nama", textAlign: TextAlign.left),
-                                      Text(model.listPinjamanModel[index].nama,
+                                      Text(
+                                          "Nama: " +
+                                              model.listPinjamanModel[index]
+                                                  .nama,
                                           textAlign: TextAlign.left),
                                     ],
                                   ),
